@@ -1,0 +1,114 @@
+Beta 0.922
+Off-mode set to normal under every global, so mute times should work as intended now
+Whistle self-muting fixed so it works now
+
+Beta 0.921
+Bug with note-selfmasking fixed - details below
+Polyphony limiting now is three per mic per key in general, except for snare roll keys which get 6, and hi-hat which gets max because the silence groups there can cause problems
+Group numbers added under master headers for mics to get the note_polyphony to keep a separate counter for each mic - kludgy but I'll take it
+Fixed bleed controls in basic kit which were totally wrong in 0.920
+
+Beta 0.920
+Polyphony doesn't work well with multiple mics on
+Polyphony limit switched from per kit piece to per key, so note_selfmask will be used and quiet hits won't kill louder ones unrealistically
+Hi-hat keys have note_polyphony=MAX because without that stuff behaved weirdly and I don't have time to figure it out properly but this works
+Hi-hat, triangle and conga should still have more muted articulations mute less-muted ones
+
+Beta 0.910
+User guide now exists
+Hi-hat mute time extended and turned into a parameter set in the keymap file
+Hi-hat splash no longer mutes any of the articulations except itself - on paper it "should" but it's quiet and that exposes that the muting is a simple fadeout
+Hi-hat silence file comments fixed
+Leaving mute groups as they are for now... doing note_polyphony and note_selfmask might be superior, and only using groups for hi-hat, triangle, conga and cuica, but kinda late now and trying to fix this would likely make a giant mess
+
+Beta 0.900
+Tambourine and shaker timing tightened
+Some perc slightly louder
+Controls laid out on GUI now
+GUI has pedal and non-pedal versions
+Alternate keymaps added
+Unused roll end samples deleted
+No user guide yet
+Leaving kick dampen, snare roll endings and perc samples in WAV for now
+
+Beta 0.520
+Timbales added
+Master tune moved from CC91 to 90
+Info tab image updated, links in roughly correct locations
+No user guide yet
+Control tab is still a placeholder and has hi-hat pedal control which does nothing unless the mapping is reconfigured
+Kick dampen still probably too aggressive
+Snare roll ends still probably too loud
+Perc samples are WAV, not FLAC but that's probably OK
+
+Beta 0.510
+All GM perc now present except for timbales, though cuica, vibraslap and woodblock only have OH mics
+Basic kit now includes GM perc also
+Cuica and whistle intentionally not affected by epic controls
+No user guide yet
+GUI is still a placeholder and has hi-hat pedal control which does nothing unless the mapping is reconfigured
+Kick dampen still probably too aggressive
+Snare roll ends still probably too loud
+Perc samples are WAV, not FLAC but that's probably OK
+
+Beta 0.500
+Some General MIDI percussion added for close, OH, mid and room mics, with the close being under the snare mic control
+No user guide yet
+GUI is still a placeholder and has hi-hat pedal control which does nothing unless the mapping is reconfigured
+Kick dampen still probably too aggressive
+Snare roll ends still probably too loud
+Perc samples are WAV, not FLAC
+
+Beta 0.410
+WAV samples replaced with FLAC except for snare rolls (which have embedded loop points)
+Epic control simplified to one knob
+No user guide yet
+GUI is still a placeholder and has hi-hat pedal control which does nothing unless the mapping is reconfigured
+Kick dampen still probably too aggressive
+Snare roll ends still probably too loud
+
+Beta 0.400
+Basic patch and single mic patches now have the proper contents
+All controls are now functional except hi-hat pedal, which can be configured to be functional by editing the mapping file
+Each of the non-close mics now has its own epic control
+Snare roll ends work better (but are probably too loud)
+Backslashes in SFZ files replaced with forward slashes
+GUI is still a placeholder
+Still WAV
+
+Alpha 0.300
+XML bank for Sforzando now included
+Basic GUI done but pretty bad
+All patches right now are actually the full patch
+Kick dampen control probably still too aggressive
+Cymbal tune replaced with master tune
+Epic knob added with overheads transposed down an octave, should probably be removed
+Bleed controls still not implemented, present on GUI but they do nothing
+Still WAV
+
+Alpha 0.200
+All mics now mapped and have volume controls and width for the stereo ones
+Bleed controls not set up yet but other controls working
+Kick dampen control probably much too aggressive, unless we want to do hip-hop
+Cymbal tune control is, again, pretty much for sounding like samples of old records
+No basic patch yet
+No separate mic mapping patches yet
+Still WAV
+
+Alpha 0.110
+Missing snare buzz 2 layer added
+Hi-hat pedal map fixed
+Controls common to all mics added
+Hi-hat muting has hierarchy now
+Hi-hat mapping modularized so it can be switched to using CC4 for the hi-hat pedal
+Still just overhead, still WAV
+
+Alpha 0.100
+All kit pieces mapped with overhead mic only so far
+Mapping files have backslashes, will need mass search-replace for Mac and Linux users
+No controls except for snare on/off and snare roll dynamics
+Each kit piece has some polyphony limitations, so the total number of voices as well as the sound buildup can be controlled
+WAV files not FLAC
+Hi-hat muting is very simple for now
+Snare buzz velocity layer 2 file missing, will need reexport
+Once the above two things are fixed, it should be trivial to adjust the mapping for all other mic positions

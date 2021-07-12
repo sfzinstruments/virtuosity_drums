@@ -1,0 +1,188 @@
+<master>
+ampeg_release=0.8
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TAMB_KEY
+#include "mappings/perc/oh/tambourine_map.sfz"
+
+<master>
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_COWBELL_KEY
+#include "mappings/perc/oh/cowbell_map.sfz"
+
+<master>
+ampeg_release=0.8
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_VIBRAS_KEY
+#include "mappings/perc/oh/vibraslap_map.sfz"
+
+<master>
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_BONGOH_KEY
+volume=3
+#include "mappings/perc/oh/bongo_high_map.sfz"
+
+<master>
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_BONGOL_KEY
+volume=3
+#include "mappings/perc/oh/bongo_low_map.sfz"
+
+
+<master>
+group=355
+
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_CONGAHM_KEY
+volume=3
+#include "mappings/perc/oh/conga_muted_map.sfz"
+
+<master>
+group=356
+off_by=355
+
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_CONGAHO_KEY
+volume=3
+#include "mappings/perc/oh/conga_open_map.sfz"
+
+<master>
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TIMBH_KEY
+#include "mappings/perc/oh/timbale_13_map.sfz"
+
+<master>
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TIMBL_KEY
+#include "mappings/perc/oh/timbale_14_map.sfz"
+
+<master>
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_CONGAL_KEY
+volume=3
+#include "mappings/perc/oh/tumba_map.sfz"
+
+
+<master>
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_AGOGOH_KEY
+#include "mappings/perc/oh/agogo_high_map.sfz"
+
+<master>
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_AGOGOL_KEY
+#include "mappings/perc/oh/agogo_low_map.sfz"
+
+<master>
+ampeg_release=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_CABASA_KEY
+#include "mappings/perc/oh/cabasa_map.sfz"
+
+<master>
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_MARACAS_KEY
+#include "mappings/perc/oh/shaker_up_map.sfz"
+
+<master>
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_GUIROS_KEY
+volume=6
+#include "mappings/perc/oh/guiro_slow_map.sfz"
+
+<master>
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_GUIROF_KEY
+volume=6
+#include "mappings/perc/oh/guiro_fast_map.sfz"
+
+<master>
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_CLAVES_KEY
+#include "mappings/perc/oh/claves_map.sfz"
+
+<master>
+ampeg_release=0.3
+amp_veltrack=100
+amp_velcurve_1=0.4
+volume=-4
+key=$PERC_WBLOCKH_KEY
+#include "mappings/perc/oh/woodblock_high_map.sfz"
+
+<master>
+ampeg_release=0.3
+amp_veltrack=100
+amp_velcurve_1=0.4
+volume=-4
+key=$PERC_WBLOCKL_KEY
+#include "mappings/perc/oh/woodblock_low_map.sfz"
+
+<master>
+group=351
+
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TRIANGLEM_KEY
+#include "mappings/perc/oh/triangle_muted_map.sfz"
+
+<master>
+group=352
+off_by=351
+
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TRIANGLEO_KEY
+#include "mappings/perc/oh/triangle_open_map.sfz"
+
+<master>
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_SHAKER_KEY
+#include "mappings/perc/oh/shaker_down_map.sfz"
+
+<master>
+ampeg_release=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_JINGLEBELL_KEY
+#include "mappings/perc/oh/jinglebell_map.sfz"
+
+<master>
+ampeg_release=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_BELLTREE_KEY
+#include "mappings/perc/oh/belltree_map.sfz"

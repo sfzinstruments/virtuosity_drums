@@ -1,0 +1,163 @@
+<master>
+ampeg_release=0.5
+#include "mappings/kick_dampen.sfz"
+tune_cc72=1200
+tune_curvecc72=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+//Bleed control
+locc104=43
+
+<group>
+key=$KICK_SNWRONG_KEY
+#include "mappings/snaremic/kick_snoff_map.sfz"
+
+<group>
+key=$KICK_SNRIGHT_KEY
+#include "mappings/snaremic/kick_snon_map.sfz"
+
+
+<master>
+ampeg_release=0.4
+amp_veltrack=0
+tune_cc76=1200
+tune_curvecc76=1
+
+
+<group>
+key=$SNARE_STICKSHOT1_KEY
+#include "mappings/snaremic/snare_stickshot1_map.sfz"
+
+<group>
+key=$SNARE_CENTER_KEY
+#include "mappings/snaremic/snare_center_map.sfz"
+
+<group>
+key=$SNARE_OFFCENTER_KEY
+#include "mappings/snaremic/snare_offcenter_map.sfz"
+
+<group>
+key=$SNARE_RIMSHOT_KEY
+#include "mappings/snaremic/snare_rimshot_map.sfz"
+
+
+<master>
+ampeg_release=$HH_MUTE_TIME
+amp_veltrack=100
+amp_velcurve_1=0.4
+//Bleed control
+locc104=85
+note_polyphony=MAX
+
+<group>
+key=$HH_CLOSED_KEY
+group=62
+off_by=61
+#include "mappings/snaremic/hh_closed_map.sfz"
+
+<group>
+key=$HH_PEDAL_KEY
+amp_veltrack=50
+group=61
+off_by=60
+#include "mappings/snaremic/hh_pedal_map.sfz"
+
+<group>
+key=$HH_OPEN_KEY
+group=65
+off_by=64
+#include "mappings/snaremic/hh_open_map.sfz"
+
+
+
+<master>
+note_polyphony=MAX
+#include "mappings/snaremic/hh_silences_basic_map.sfz"
+
+<master>
+ampeg_release=1.1
+amp_veltrack=100
+amp_velcurve_1=0.4
+//Bleed control
+locc104=85
+
+
+<group>
+key=$CRASH_CRASH_KEY
+#include "mappings/snaremic/crash_crash_map.sfz"
+
+<group>
+key=$CRASH_SIZZLE_KEY
+#include "mappings/snaremic/crash_sizzle_map.sfz"
+
+<master>
+ampeg_release=1.3
+amp_veltrack=50
+//Bleed control
+locc104=85
+
+
+<group>
+key=$RIDE_RIDE_KEY
+#include "mappings/snaremic/ride_ride_map.sfz"
+
+<group>
+key=$RIDE_BELL_KEY
+#include "mappings/snaremic/ride_bell_map.sfz"
+
+<master>
+ampeg_release=1.3
+amp_veltrack=50
+//Bleed control
+locc104=85
+
+
+<group>
+key=$FLATRIDE_RIDE_KEY
+#include "mappings/snaremic/flatride_ride_map.sfz"
+
+<group>
+key=$FLATRIDE_CRASH_KEY
+#include "mappings/snaremic/flatride_crash_map.sfz"
+
+<master>
+ampeg_release=0.7
+amp_veltrack=0
+tune_cc81=1200
+tune_curvecc81=1
+//Bleed control
+locc104=85
+
+<group>
+key=$LTOM_CENTER_KEY
+#include "mappings/snaremic/ltom_center_map.sfz"
+
+<group>
+key=$LTOM_OFFCENTER_KEY
+#include "mappings/snaremic/ltom_offcenter_map.sfz"
+
+<group>
+key=$LTOM_RIMSHOT_KEY
+#include "mappings/snaremic/ltom_rimshot_map.sfz"
+
+<group>
+key=$LTOM_CROSSSTICK_KEY
+#include "mappings/snaremic/ltom_crossstick_map.sfz"
+
+
+
+<master>
+ampeg_release=0.5
+amp_veltrack=0
+tune_cc86=1200
+tune_curvecc86=1
+//Bleed control
+locc104=85
+
+<group>
+key=$HTOM_CENTER_KEY
+#include "mappings/snaremic/htom_center_map.sfz"
+
+<group>
+key=$HTOM_OFFCENTER_KEY
+#include "mappings/snaremic/htom_offcenter_map.sfz"

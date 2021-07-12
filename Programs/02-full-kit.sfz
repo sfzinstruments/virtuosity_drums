@@ -1,0 +1,200 @@
+#include "keymaps/keymap.sfz"
+
+<control>
+label_cc1=Roll dynamics
+label_cc4=Hi-hat pedal
+label_cc21=Snares off
+label_cc71=Kick dampen
+label_cc72=Kick tune
+label_cc76=Snare tune
+label_cc81=Low tom tune
+label_cc86=High tom tune
+label_cc90=Master tune
+label_cc101=Kick mic vol
+label_cc102=Kick mic bleed
+label_cc103=Snare mic vol
+label_cc104=Snare mic bleed
+label_cc105=OH mic vol
+label_cc106=OH width
+label_cc107=Mid mic vol
+label_cc108=Mid width
+label_cc109=Room mic vol
+label_cc110=Room width
+label_cc111=Vintage mic vol
+label_cc113=Epic
+
+set_cc1=31
+set_cc72=63.5
+set_cc76=63.5
+set_cc81=63.5
+set_cc86=63.5
+set_cc90=63.5
+set_cc101=127
+set_cc102=127
+set_cc103=127
+set_cc104=127
+set_cc105=127
+set_cc106=127
+set_cc107=0
+set_cc108=127
+set_cc109=0
+set_cc110=127
+set_cc111=0
+set_cc113=0
+
+<global>
+loop_mode=one_shot
+amplitude_oncc101=100
+locc101=1
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=501
+off_mode=normal
+
+#include "mappings/kickmic_all.sfz"
+
+<global>
+loop_mode=one_shot
+amplitude_oncc103=100
+locc103=1
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=502
+off_mode=normal
+
+#include "mappings/snaremic_all.sfz"
+#include "mappings/closemic_perc.sfz"
+
+<global>
+loop_mode=one_shot
+amplitude_oncc105=100
+width=0
+width_oncc106=100
+locc105=1
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=503
+off_mode=normal
+
+#include "mappings/oh_all.sfz"
+#include "mappings/oh_perc.sfz"
+
+<global>
+loop_mode=one_shot
+width=0
+width_oncc106=100
+amplitude_oncc113=100
+locc113=1
+amplitude_oncc105=100
+locc105=1
+transpose=-12
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=504
+off_mode=normal
+
+#include "mappings/oh_epic_all.sfz"
+#include "mappings/oh_epic_perc.sfz"
+
+<global>
+loop_mode=one_shot
+amplitude_oncc107=100
+width=0
+width_oncc108=100
+locc107=1
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=505
+off_mode=normal
+
+#include "mappings/mid_all.sfz"
+#include "mappings/mid_perc.sfz"
+
+<global>
+loop_mode=one_shot
+width=0
+width_oncc108=100
+amplitude_oncc113=100
+locc113=1
+amplitude_oncc107=100
+locc107=1
+transpose=-12
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=506
+off_mode=normal
+
+#include "mappings/mid_epic_all.sfz"
+#include "mappings/mid_epic_perc.sfz"
+
+
+<global>
+loop_mode=one_shot
+amplitude_oncc109=100
+width=0
+width_oncc110=100
+locc109=1
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=507
+off_mode=normal
+
+#include "mappings/room_all.sfz"
+#include "mappings/room_perc.sfz"
+
+<global>
+loop_mode=one_shot
+width=0
+width_oncc110=100
+amplitude_oncc113=100
+locc113=1
+amplitude_oncc109=100
+locc109=1
+transpose=-12
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=508
+off_mode=normal
+
+#include "mappings/room_epic_all.sfz"
+#include "mappings/room_epic_perc.sfz"
+
+
+<global>
+loop_mode=one_shot
+amplitude_oncc111=100
+locc111=1
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=509
+off_mode=normal
+
+#include "mappings/lofi_all.sfz"
+
+<global>
+loop_mode=one_shot
+amplitude_oncc113=100
+locc113=1
+amplitude_oncc111=100
+locc111=1
+transpose=-12
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=510
+off_mode=normal
+
+#include "mappings/lofi_epic_all.sfz"
+
+
+
+#include "mappings/mutecurves.sfz"

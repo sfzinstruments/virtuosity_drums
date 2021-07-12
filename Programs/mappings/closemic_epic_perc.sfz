@@ -1,0 +1,189 @@
+<master>
+group=301
+polyphony=4
+ampeg_release=0.8
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TAMB_KEY
+#include "mappings/perc/close/tambourine_map.sfz"
+
+<master>
+group=302
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_COWBELL_KEY
+#include "mappings/perc/close/cowbell_map.sfz"
+
+<master>
+group=319
+polyphony=3
+ampeg_release=0.8
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_VIBRAS_KEY
+#include "mappings/perc/close/vibraslap_map.sfz"
+
+<master>
+group=303
+polyphony=3
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_BONGOH_KEY
+volume=3
+#include "mappings/perc/close/bongo_high_map.sfz"
+
+<master>
+group=304
+polyphony=3
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_BONGOL_KEY
+volume=3
+#include "mappings/perc/close/bongo_low_map.sfz"
+
+
+<master>
+group=315
+polyphony=3
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+volume=3
+key=$PERC_CONGAHM_KEY
+#include "mappings/perc/close/conga_muted_map.sfz"
+
+<master>
+group=316
+off_by=315
+polyphony=3
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+volume=3
+key=$PERC_CONGAHO_KEY
+#include "mappings/perc/close/conga_open_map.sfz"
+
+<master>
+group=317
+polyphony=3
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+volume=3
+key=$PERC_CONGAL_KEY
+#include "mappings/perc/close/tumba_map.sfz"
+
+<master>
+group=305
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_AGOGOH_KEY
+#include "mappings/perc/close/agogo_high_map.sfz"
+
+<master>
+group=306
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_AGOGOL_KEY
+#include "mappings/perc/close/agogo_low_map.sfz"
+
+<master>
+group=307
+polyphony=3
+ampeg_release=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_CABASA_KEY
+#include "mappings/perc/close/cabasa_map.sfz"
+
+<master>
+group=308
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_MARACAS_KEY
+#include "mappings/perc/close/shaker_up_map.sfz"
+
+<master>
+group=309
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+volume=6
+key=$PERC_GUIROS_KEY
+#include "mappings/perc/close/guiro_slow_map.sfz"
+
+<master>
+group=309
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+volume=6
+key=$PERC_GUIROF_KEY
+#include "mappings/perc/close/guiro_fast_map.sfz"
+
+<master>
+group=310
+polyphony=3
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_CLAVES_KEY
+#include "mappings/perc/close/claves_map.sfz"
+
+<master>
+group=311
+polyphony=3
+ampeg_release=0.4
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TRIANGLEM_KEY
+#include "mappings/perc/close/triangle_muted_map.sfz"
+
+<master>
+group=312
+off_by=311
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_TRIANGLEO_KEY
+#include "mappings/perc/close/triangle_open_map.sfz"
+
+<master>
+group=308
+polyphony=3
+ampeg_release=0.6
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_SHAKER_KEY
+#include "mappings/perc/close/shaker_down_map.sfz"
+
+<master>
+group=313
+polyphony=3
+ampeg_release=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_JINGLEBELL_KEY
+#include "mappings/perc/close/jinglebell_map.sfz"
+
+<master>
+group=314
+polyphony=3
+ampeg_release=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+key=$PERC_BELLTREE_KEY
+#include "mappings/perc/close/belltree_map.sfz"

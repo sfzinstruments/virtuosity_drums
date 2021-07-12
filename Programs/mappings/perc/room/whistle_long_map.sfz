@@ -1,0 +1,9 @@
+
+<region>
+sample=../Samples/perc/room/whistle/Far_BallWhistle_Long-001.wav
+seq_length=2
+
+<region>
+sample=../Samples/perc/room/whistle/Far_BallWhistle_Long-002.wav
+seq_length=2
+seq_position=2

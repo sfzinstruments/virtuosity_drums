@@ -1,0 +1,60 @@
+#define $KICK_SNWRONG_KEY 35
+#define $KICK_SNRIGHT_KEY 36
+
+#define $SNARE_STICKSHOT1_KEY 37
+#define $SNARE_CENTER_KEY 38
+#define $SNARE_OFFCENTER_KEY 39
+#define $SNARE_RIMSHOT_KEY 40
+
+#define $LTOM_CENTER_KEY 41
+#define $LTOM_OFFCENTER_KEY 43
+#define $LTOM_RIMSHOT_KEY 45
+#define $LTOM_CROSSSTICK_KEY 47
+#define $HTOM_CENTER_KEY 48
+#define $HTOM_OFFCENTER_KEY 50
+
+#define $CRASH_CRASH_KEY 49
+#define $CRASH_SIZZLE_KEY 57
+
+#define $RIDE_RIDE_KEY 51
+#define $RIDE_BELL_KEY 53
+
+#define $FLATRIDE_RIDE_KEY 59
+#define $FLATRIDE_CRASH_KEY 55 //GM splash cymbal key
+
+#define $HH_CLOSED_KEY 42
+#define $HH_PEDAL_KEY 44
+#define $HH_OPEN_KEY 46
+
+//Percussion is moved below the drums range
+
+#define $PERC_TAMB_KEY 33
+#define $PERC_COWBELL_KEY 32
+#define $PERC_VIBRAS_KEY 31
+#define $PERC_BONGOH_KEY 30
+#define $PERC_BONGOL_KEY 29
+#define $PERC_CONGAHM_KEY 28
+#define $PERC_CONGAHO_KEY 27
+#define $PERC_CONGAL_KEY 26
+#define $PERC_TIMBH_KEY 25 //High Timbale, no mics for that
+#define $PERC_TIMBL_KEY 24 //High Timbale, no mics for that
+#define $PERC_AGOGOH_KEY 23
+#define $PERC_AGOGOL_KEY 22
+#define $PERC_CABASA_KEY 21
+#define $PERC_MARACAS_KEY 20 //No real maracas but used for a shaker
+#define $PERC_WHISTLES_KEY 19
+#define $PERC_WHISTLEL_KEY 18
+#define $PERC_GUIROS_KEY 17
+#define $PERC_GUIROF_KEY 16
+#define $PERC_CLAVES_KEY 15
+#define $PERC_WBLOCKH_KEY 14 //High Woodblock, no mics for that
+#define $PERC_WBLOCKL_KEY 13 //Low Woodblock, no mics for that
+#define $PERC_CUICAM_KEY 12 //Mute Cuica, no mics for that
+#define $PERC_CUICAO_KEY 11 //Open Cuica, no mics for that
+#define $PERC_TRIANGLEM_KEY 10
+#define $PERC_TRIANGLEO_KEY 9
+#define $PERC_SHAKER_KEY 8
+#define $PERC_JINGLEBELL_KEY 7
+#define $PERC_BELLTREE_KEY 6
+
+#define $HH_MUTE_TIME 0.7

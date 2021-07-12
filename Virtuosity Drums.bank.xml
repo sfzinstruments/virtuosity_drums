@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Key>44B2B6B74D6A08C8E8526626EB54515EE1D805FB6CE403517C8C5EBD223A687E5371546FCD528577E4BD0C8FB454CB4DC724F352EE677777BB6BCF5EB9DE80926AD8BA5C845EFDA209D4DD431F1CDA90D1B6F282E87CF1F8C2CCB947773D19D0FA2A7E8BF06B2480184D8ACD83DA1538213246BD2B81A0AB857F1466AD3B70F1441377605BEDD864FD60F6605958DD6E20266034648DA69806B679E6BFD2C126B15F363F4CF043B1C500D9776E063A3D1B852CE78705BB4CF7A8B79638544E07F57BC72BAE8A049D33E1D337EB722813B8B980B42DC5A47328EFBA9B6EE126AADA82F7F6B4CEFFCACA762AEEC0346E2F94B518A0CE3698FAD494BD5BFB67A2ED</Key>
+<AriaBank id="2552" name="Virtuosity Drums" vendor="Karoryfer" product="Virtuosity Drums" version="1000" >
+
+    <Define name="$sample_dir" value="../Samples"/>
+    
+    <!-- branding for Aria Player and sforzando UIs -->
+    <AriaGUI path="GUI/aria_info.xml"  target="*ARIA_INFO" />    
+ 
+    <AriaProgram  name="01-Basic kit"     gui="GUI/01-basic-kit.xml">  <AriaElement  path="Programs/01-basic-kit.sfz"/>   </AriaProgram>
+    <AriaProgram  name="02-Full kit"      gui="GUI/02-full-kit.xml">   <AriaElement  path="Programs/02-full-kit.sfz"/>    </AriaProgram>
+    <AriaProgram  name="03-Kick mic"      gui="GUI/03-kick-mic.xml">   <AriaElement  path="Programs/03-kick-mic.sfz"/>    </AriaProgram>
+    <AriaProgram  name="04-Snare mic"     gui="GUI/04-snare-mic.xml">  <AriaElement  path="Programs/04-snare-mic.sfz"/>   </AriaProgram>
+    <AriaProgram  name="05-Overhead mics" gui="GUI/05-oh-mic.xml">     <AriaElement  path="Programs/05-oh-mic.sfz"/>      </AriaProgram>
+    <AriaProgram  name="06-Mid mics"      gui="GUI/06-mid-mic.xml">    <AriaElement  path="Programs/06-mid-mic.sfz"/>     </AriaProgram>
+    <AriaProgram  name="07-Room mics"     gui="GUI/07-room-mic.xml">   <AriaElement  path="Programs/07-room-mic.sfz"/>    </AriaProgram>
+    <AriaProgram  name="08-Vintage mic"   gui="GUI/08-vintage-mic.xml"><AriaElement  path="Programs/08-vintage-mic.sfz"/> </AriaProgram>
+	
+</AriaBank>

@@ -1,0 +1,50 @@
+<GUI w="775" h="335">
+
+	<!-- Kick GUI -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="BG_Snare_HH.png" transparent="0"  />
+	
+	<!-- Controls - General faders -->
+
+	<!-- Snare roll dynamics -->
+<Slider param="1"   x="65"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+
+	<!-- Hi-hat pedal -->
+< Slider param="4"   x="141"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+
+	<!-- Controls - Mic faders -->
+
+	<!-- Snare mic -->
+<Slider param="103"   x="284"  y="86"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+
+	<!-- Controls - Middle row -->
+	<!-- Snare mic bleed -->
+	<OptionMenu    param="104"  x="270"  y="235"  w="40" h="18"  font_size="Small" alignment="center" color_text="#D3CFC9FF" transparent="0"  >	
+		<OptionItem name="NONE"		    value="0" />
+		<OptionItem name="KICK"		    value="0.5" />
+		<OptionItem name="ALL"	    value="1" />		
+	</OptionMenu>
+
+	<!-- Controls - Bottom row -->
+	<!-- Kick dampen -->
+	<Knob param="71" x="216" y="279" image="Dial.png" frames="90"  />
+	<!-- Snare button -->
+	<OnOffButton param="21"  x="274" y="278" w="35" h="35" image="onoff.png" />
+
+
+
+	<!-- Controls - Tune-->
+	<!-- Master -->
+	<Knob param="90" x="635" y="116" image="Dial.png" frames="90"  />
+	<!-- Snare -->
+	<Knob param="76" x="590" y="166" image="Dial.png" frames="90"  />
+	<!-- Kick -->
+	<Knob param="72" x="590" y="243" image="Dial.png" frames="90"  />
+	<!-- High tom -->
+	<Knob param="86" x="682" y="166" image="Dial.png" frames="90"  />
+	<!-- Low tom -->
+	<Knob param="81" x="682" y="243" image="Dial.png" frames="90"  />
+
+</GUI>                                                                                                                                       

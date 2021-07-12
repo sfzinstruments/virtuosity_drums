@@ -1,0 +1,90 @@
+<group>
+//The range which mutes splashes
+//Everything except open
+//Splash mutes splash, but that key is not part of this silence group
+//Instead splash regions themselves are marked with the same group also
+//Kind of a kludge, but keeps the silence from instantly muting the splash
+//while allowing a subsequent splash to mute the current splash
+sample=*silence
+loop_mode=loop_continuous off_mode=fast
+ampeg_attack=0 ampeg_decay=0 ampeg_sustain=0 ampeg_release=0
+group=26
+off_by=26
+<region>
+key=$HH_34_KEY
+locc4=$HH_34_LOCC
+hicc4=$HH_34_HICC
+<region>
+key=$HH_HALF_KEY
+locc4=$HH_HALF_LOCC
+hicc4=$HH_HALF_HICC
+<region>
+key=$HH_CLOSED_KEY
+<region>
+key=$HH_PEDAL_KEY
+
+<group>
+//The range which mutes open hi-hats
+//Everything except open and splashes
+//In theory splashes should mute everything else too because they require closing the hat
+//But in practice here the splash is quiet
+//Muting a louder hat hit with a quiet one tends to expose the fact that it's a simple fadeout
+//And there should be some edge clash noise as the hat is being closed
+sample=*silence
+loop_mode=loop_continuous off_mode=fast
+ampeg_attack=0 ampeg_decay=0 ampeg_sustain=0 ampeg_release=0
+group=24
+off_by=23
+<region>
+key=$HH_34_KEY
+locc4=$HH_34_LOCC
+hicc4=$HH_34_HICC
+<region>
+key=$HH_HALF_KEY
+locc4=$HH_HALF_LOCC
+hicc4=$HH_HALF_HICC
+<region>
+key=$HH_CLOSED_KEY
+<region>
+key=$HH_PEDAL_KEY
+
+<group>
+//The range which mutes 3/4 open hi-hats
+//Everything except open and 3/4 and splash
+sample=*silence
+loop_mode=loop_continuous off_mode=fast
+ampeg_attack=0 ampeg_decay=0 ampeg_sustain=0 ampeg_release=0
+group=23
+off_by=22
+<region>
+key=$HH_HALF_KEY
+locc4=$HH_HALF_LOCC
+hicc4=$HH_HALF_HICC
+<region>
+key=$HH_CLOSED_KEY
+<region>
+key=$HH_PEDAL_KEY
+
+<group>
+//The range which mutes half open hi-hats
+//Just closed and pedal
+sample=*silence
+loop_mode=loop_continuous off_mode=fast
+ampeg_attack=0 ampeg_decay=0 ampeg_sustain=0 ampeg_release=0
+group=22
+off_by=21
+<region>
+key=$HH_CLOSED_KEY
+<region>
+key=$HH_PEDAL_KEY
+
+<group>
+//The range which mutes closed hi-hats
+//Just pedal, though with the short duration this could probably be skipped with no real harm
+sample=*silence
+loop_mode=loop_continuous off_mode=fast
+ampeg_attack=0 ampeg_decay=0 ampeg_sustain=0 ampeg_release=0
+group=21
+off_by=20
+<region>
+key=$HH_PEDAL_KEY

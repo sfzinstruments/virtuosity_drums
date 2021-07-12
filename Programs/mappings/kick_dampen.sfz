@@ -1,0 +1,10 @@
+amp_veltrack=100
+ampeg_hold=0.2
+ampeg_hold_oncc71=-0.15
+ampeg_decay=2.5
+ampeg_decay_oncc71=-2.4
+ampeg_sustain=100
+ampeg_sustain_oncc71=-100
+ampeg_hold_curvecc71=8
+ampeg_decay_curvecc71=8
+ampeg_sustain_curvecc71=7

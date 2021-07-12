@@ -1,0 +1,57 @@
+<GUI w="775" h="335">
+
+	<!-- Kick GUI -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="BG_Basic.png" transparent="0"  />
+	
+	<!-- Controls - General faders -->
+
+	<!-- Snare roll dynamics -->
+<Slider param="1"   x="65"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+
+	<!-- Controls - Mic faders -->
+	<!-- Kick mic -->
+<Slider param="101"   x="227"  y="86"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+	<!-- Snare mic -->
+<Slider param="103"   x="284"  y="86"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+	<!-- OH mics -->
+<Slider param="105"   x="342"  y="86"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+
+
+	<!-- Controls - Middle row -->
+	<!-- Kick mic bleed -->
+	<OptionMenu    param="102"  x="214"  y="235"  w="40" h="18"  font_size="Small" alignment="center" color_text="#D3CFC9FF" transparent="0"  >	
+		<OptionItem name="NONE"		    value="0" />
+		<OptionItem name="SNARE"		    value="0.5" />
+		<OptionItem name="ALL"	    value="1" />	
+	</OptionMenu>
+	<!-- Snare mic bleed -->
+	<OptionMenu    param="104"  x="270"  y="235"  w="40" h="18"  font_size="Small" alignment="center" color_text="#D3CFC9FF" transparent="0"  >	
+		<OptionItem name="NONE"		    value="0" />
+		<OptionItem name="KICK"		    value="0.5" />
+		<OptionItem name="ALL"	    value="1" />		
+	</OptionMenu>
+	<!-- OH width -->
+	<Slider param="106"   x="330"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="pan_knob.png" image_bg="pan_fader_bg.png"  />
+
+	<!-- Controls - Bottom row -->
+	<!-- Kick dampen -->
+	<Knob param="71" x="216" y="279" image="Dial.png" frames="90"  />
+
+
+
+	<!-- Controls - Tune-->
+	<!-- Master -->
+	<Knob param="90" x="635" y="116" image="Dial.png" frames="90"  />
+	<!-- Snare -->
+	<Knob param="76" x="590" y="166" image="Dial.png" frames="90"  />
+	<!-- Kick -->
+	<Knob param="72" x="590" y="243" image="Dial.png" frames="90"  />
+	<!-- High tom -->
+	<Knob param="86" x="682" y="166" image="Dial.png" frames="90"  />
+	<!-- Low tom -->
+	<Knob param="81" x="682" y="243" image="Dial.png" frames="90"  />
+
+</GUI>                                                                                                                                       

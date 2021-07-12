@@ -1,0 +1,312 @@
+<master>
+ampeg_release=0.5
+#include "mappings/kick_dampen.sfz"
+tune_cc72=1200
+tune_curvecc72=1
+amp_veltrack=100
+amp_velcurve_1=0.4
+
+<group>
+key=$KICK_SNWRONG_KEY
+hicc21=100
+#include "mappings/lofi/kick_snoff_map.sfz"
+
+<group>
+key=$KICK_SNRIGHT_KEY
+hicc21=100
+#include "mappings/lofi/kick_snon_map.sfz"
+
+<group>
+key=$KICK_SNWRONG_KEY
+locc21=101
+#include "mappings/lofi/kick_snon_map.sfz"
+
+<group>
+key=$KICK_SNRIGHT_KEY
+locc21=101
+#include "mappings/lofi/kick_snoff_map.sfz"
+
+<master>
+ampeg_release=0.4
+hicc21=100
+amp_veltrack=0
+tune_cc76=1200
+tune_curvecc76=1
+
+<group>
+key=$SNARE_STICKSHOT1_KEY
+#include "mappings/lofi/snare_stickshot1_map.sfz"
+
+<group>
+key=$SNARE_CENTER_KEY
+#include "mappings/lofi/snare_center_map.sfz"
+
+<group>
+key=$SNARE_OFFCENTER_KEY
+#include "mappings/lofi/snare_offcenter_map.sfz"
+
+<group>
+key=$SNARE_RIMSHOT_KEY
+#include "mappings/lofi/snare_rimshot_map.sfz"
+
+<group>
+key=$SNARE_STICKSHOT2_KEY
+#include "mappings/lofi/snare_stickshot2_map.sfz"
+
+<group>
+key=$SNARE_MUTED_KEY
+#include "mappings/lofi/snare_muted_map.sfz"
+
+<group>
+key=$SNARE_HALFOPEN_KEY
+#include "mappings/lofi/snare_halfopen_map.sfz"
+
+<group>
+key=$SNARE_CROSSSTICK_KEY
+#include "mappings/lofi/snare_crossstick_map.sfz"
+
+<group>
+key=$SNARE_BUZZ_KEY
+#include "mappings/lofi/snare_buzz_map.sfz"
+
+<group>
+key=$SNARE_FLAM_KEY
+#include "mappings/lofi/snare_flam_map.sfz"
+
+<master>
+//Snare rolls get own master header
+note_polyphony=6
+group=6
+hicc21=100
+key=$SNARE_ROLL_KEY
+amp_veltrack=0
+loop_mode=loop_continuous
+ampeg_release=0.1
+tune_cc76=1200
+tune_curvecc76=1
+#include "mappings/lofi/snare_roll_map.sfz"
+
+<master>
+//Snare roll ends are also under a separate master
+hicc21=100	
+key=$SNARE_ROLL_KEY
+amp_veltrack=0
+trigger=release_key
+
+tune_cc76=1200
+tune_curvecc76=1
+#include "mappings/lofi/snare_roll_end_map.sfz"
+
+<master>
+ampeg_release=0.4
+locc21=101
+amp_veltrack=0
+tune_cc76=1200
+tune_curvecc76=1
+
+<group>
+key=$SNARE_STICKSHOT1_KEY
+#include "mappings/lofi/snareoff_stickshot1_map.sfz"
+
+<group>
+key=$SNARE_CENTER_KEY
+#include "mappings/lofi/snareoff_center_map.sfz"
+
+<group>
+key=$SNARE_OFFCENTER_KEY
+#include "mappings/lofi/snareoff_offcenter_map.sfz"
+
+<group>
+//Snare off rimshots not recorded, so stickshot2 is used twice
+key=$SNARE_RIMSHOT_KEY
+#include "mappings/lofi/snareoff_stickshot2_map.sfz"
+
+<group>
+key=$SNARE_STICKSHOT2_KEY
+#include "mappings/lofi/snareoff_stickshot2_map.sfz"
+
+<group>
+key=$SNARE_MUTED_KEY
+#include "mappings/lofi/snareoff_muted_map.sfz"
+
+<group>
+key=$SNARE_HALFOPEN_KEY
+#include "mappings/lofi/snareoff_halfopen_map.sfz"
+
+<group>
+key=$SNARE_CROSSSTICK_KEY
+#include "mappings/lofi/snareoff_crossstick_map.sfz"
+
+<group>
+key=$SNARE_BUZZ_KEY
+#include "mappings/lofi/snareoff_buzz_map.sfz"
+
+<group>
+key=$SNARE_FLAM_KEY
+#include "mappings/lofi/snareoff_flam_map.sfz"
+
+<master>
+//Snare rolls get own master header
+note_polyphony=6
+group=6
+locc21=101
+key=$SNARE_ROLL_KEY
+amp_veltrack=0
+loop_mode=loop_continuous
+ampeg_release=0.1
+tune_cc76=1200
+tune_curvecc76=1
+#include "mappings/lofi/snareoff_roll_map.sfz"
+
+<master>
+//Snare roll ends are also under a separate master
+locc21=101	
+key=$SNARE_ROLL_KEY
+amp_veltrack=0
+trigger=release_key
+
+tune_cc76=1200
+tune_curvecc76=1
+#include "mappings/lofi/snareoff_roll_end_map.sfz"
+
+<master>
+ampeg_release=$HH_MUTE_TIME
+amp_veltrack=100
+amp_velcurve_1=0.4
+note_polyphony=MAX
+
+
+<group>
+key=$HH_CLOSED_KEY
+group=122
+off_by=121
+#include "mappings/lofi/hh_closed_map.sfz"
+
+<group>
+key=$HH_PEDAL_KEY
+amp_veltrack=50
+group=121
+off_by=120
+#include "mappings/lofi/hh_pedal_map.sfz"
+
+<group>
+key=$HH_OPEN_KEY
+locc4=$HH_OPEN_LOCC
+hicc4=$HH_OPEN_HICC
+group=125
+off_by=124
+#include "mappings/lofi/hh_open_map.sfz"
+
+<group>
+key=$HH_HALF_KEY
+locc4=$HH_HALF_LOCC
+hicc4=$HH_HALF_HICC
+group=123
+off_by=122
+#include "mappings/lofi/hh_half_map.sfz"
+
+<group>
+key=$HH_SPLASH_KEY
+amp_veltrack=50
+group=126
+off_by=126
+#include "mappings/lofi/hh_splash_map.sfz"
+
+<group>
+key=$HH_34_KEY
+locc4=$HH_34_LOCC
+hicc4=$HH_34_HICC
+group=124
+off_by=123
+#include "mappings/lofi/hh_34_map.sfz"
+
+<master>
+note_polyphony=MAX
+#include "mappings/lofi/hh_silences_map.sfz"
+
+<master>
+ampeg_release=1.1
+amp_veltrack=100
+amp_velcurve_1=0.4
+
+
+
+<group>
+key=$CRASH_CRASH_KEY
+#include "mappings/lofi/crash_crash_map.sfz"
+
+<group>
+key=$CRASH_SIZZLE_KEY
+#include "mappings/lofi/crash_sizzle_map.sfz"
+
+<master>
+ampeg_release=1.3
+amp_veltrack=50
+
+
+
+<group>
+key=$RIDE_RIDE_KEY
+#include "mappings/lofi/ride_ride_map.sfz"
+
+<group>
+key=$RIDE_BELL_KEY
+#include "mappings/lofi/ride_bell_map.sfz"
+
+<master>
+ampeg_release=1.3
+amp_veltrack=50
+
+
+
+<group>
+key=$FLATRIDE_RIDE_KEY
+#include "mappings/lofi/flatride_ride_map.sfz"
+
+<group>
+key=$FLATRIDE_CRASH_KEY
+#include "mappings/lofi/flatride_crash_map.sfz"
+
+<master>
+ampeg_release=0.7
+amp_veltrack=0
+tune_cc81=1200
+tune_curvecc81=1
+
+<group>
+key=$LTOM_CENTER_KEY
+#include "mappings/lofi/ltom_center_map.sfz"
+
+<group>
+key=$LTOM_OFFCENTER_KEY
+#include "mappings/lofi/ltom_offcenter_map.sfz"
+
+<group>
+key=$LTOM_RIMSHOT_KEY
+#include "mappings/lofi/ltom_rimshot_map.sfz"
+
+<group>
+key=$LTOM_CROSSSTICK_KEY
+#include "mappings/lofi/ltom_crossstick_map.sfz"
+
+<group>
+key=$LTOM_MUTED_KEY
+#include "mappings/lofi/ltom_muted_map.sfz"
+
+<group>
+key=$LTOM_HALFOPEN_KEY
+#include "mappings/lofi/ltom_halfopen_map.sfz"
+
+<master>
+ampeg_release=0.5
+amp_veltrack=0
+tune_cc86=1200
+tune_curvecc86=1
+
+<group>
+key=$HTOM_CENTER_KEY
+#include "mappings/lofi/htom_center_map.sfz"
+
+<group>
+key=$HTOM_OFFCENTER_KEY
+#include "mappings/lofi/htom_offcenter_map.sfz"

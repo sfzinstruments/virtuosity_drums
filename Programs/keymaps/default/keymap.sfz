@@ -1,0 +1,89 @@
+#define $KICK_SNWRONG_KEY 35
+#define $KICK_SNRIGHT_KEY 36
+
+#define $SNARE_STICKSHOT1_KEY 37
+#define $SNARE_CENTER_KEY 38
+#define $SNARE_OFFCENTER_KEY 39
+#define $SNARE_RIMSHOT_KEY 40
+
+#define $LTOM_CENTER_KEY 41
+#define $LTOM_OFFCENTER_KEY 43
+#define $LTOM_RIMSHOT_KEY 45
+#define $LTOM_CROSSSTICK_KEY 47
+#define $HTOM_CENTER_KEY 48
+#define $HTOM_OFFCENTER_KEY 50
+
+#define $CRASH_CRASH_KEY 49
+#define $CRASH_SIZZLE_KEY 57
+
+#define $RIDE_RIDE_KEY 51
+#define $RIDE_BELL_KEY 53
+
+#define $FLATRIDE_RIDE_KEY 59
+#define $FLATRIDE_CRASH_KEY 55 //GM splash cymbal key
+
+#define $HH_CLOSED_KEY 42
+#define $HH_PEDAL_KEY 44
+#define $HH_OPEN_KEY 46
+
+//General MIDI percussion keys
+
+#define $PERC_TAMB_KEY 54
+#define $PERC_COWBELL_KEY 56
+#define $PERC_VIBRAS_KEY 58
+#define $PERC_BONGOH_KEY 60
+#define $PERC_BONGOL_KEY 61
+#define $PERC_CONGAHM_KEY 62
+#define $PERC_CONGAHO_KEY 63
+#define $PERC_CONGAL_KEY 64
+#define $PERC_TIMBH_KEY 65 //High Timbale, no mics for that
+#define $PERC_TIMBL_KEY 66 //High Timbale, no mics for that
+#define $PERC_AGOGOH_KEY 67
+#define $PERC_AGOGOL_KEY 68
+#define $PERC_CABASA_KEY 69
+#define $PERC_MARACAS_KEY 70 //No real maracas but used for a shaker
+#define $PERC_WHISTLES_KEY 71
+#define $PERC_WHISTLEL_KEY 72
+#define $PERC_GUIROS_KEY 73
+#define $PERC_GUIROF_KEY 74
+#define $PERC_CLAVES_KEY 75
+#define $PERC_WBLOCKH_KEY 76 //High Woodblock, no mics for that
+#define $PERC_WBLOCKL_KEY 77 //Low Woodblock, no mics for that
+#define $PERC_CUICAM_KEY 78 //Mute Cuica, no mics for that
+#define $PERC_CUICAO_KEY 79 //Open Cuica, no mics for that
+#define $PERC_TRIANGLEM_KEY 80
+#define $PERC_TRIANGLEO_KEY 81
+#define $PERC_SHAKER_KEY 82
+#define $PERC_JINGLEBELL_KEY 83
+#define $PERC_BELLTREE_KEY 84
+
+//Extra techniques outside the General MIDI range, crammed into one octave
+
+#define $SNARE_STICKSHOT2_KEY 85
+#define $SNARE_MUTED_KEY 86
+#define $SNARE_HALFOPEN_KEY 87
+#define $SNARE_CROSSSTICK_KEY 88
+
+#define $LTOM_MUTED_KEY 89
+#define $LTOM_HALFOPEN_KEY 91
+
+#define $SNARE_BUZZ_KEY 93
+#define $SNARE_FLAM_KEY 95
+#define $SNARE_ROLL_KEY 96
+
+//For e-drum use, set the half and 34 keys to 46 also, and use the CC ranges below
+#define $HH_HALF_KEY 90 //Octave above the GM hat keys, normally cowbell etc.
+#define $HH_SPLASH_KEY 92
+#define $HH_34_KEY 94
+
+//For e-drum use, set the ranges for the hi-hat pedal here
+#define $HH_HALF_LOCC 0
+#define $HH_HALF_HICC 127
+
+#define $HH_34_LOCC 0
+#define $HH_34_HICC 127
+
+#define $HH_OPEN_LOCC 0
+#define $HH_OPEN_HICC 127
+
+#define $HH_MUTE_TIME 0.7

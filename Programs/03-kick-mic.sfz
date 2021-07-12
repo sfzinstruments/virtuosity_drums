@@ -1,0 +1,37 @@
+#include "keymaps/keymap.sfz"
+
+<control>
+label_cc1=Roll dynamics
+label_cc4=Hi-hat pedal
+label_cc21=Snares off
+label_cc71=Kick dampen
+label_cc72=Kick tune
+label_cc76=Snare tune
+label_cc81=Low tom tune
+label_cc86=High tom tune
+label_cc90=Master tune
+label_cc101=Kick mic vol
+label_cc102=Kick mic bleed
+
+set_cc1=31
+set_cc72=63.5
+set_cc76=63.5
+set_cc81=63.5
+set_cc86=63.5
+set_cc90=63.5
+set_cc101=127
+set_cc102=127
+
+<global>
+loop_mode=one_shot
+amplitude_oncc101=100
+locc101=1
+tune_cc90=1200
+tune_curvecc90=1
+note_polyphony=3
+group=501
+off_mode=normal
+#include "mappings/kickmic_all.sfz"
+
+
+#include "mappings/mutecurves.sfz"

@@ -1,0 +1,49 @@
+<GUI w="775" h="335">
+
+	<!-- Kick GUI -->
+ 
+	<!-- Background -->
+
+	<StaticImage x="0" y="0" w="773" h="333" image="BG_Room_HH.png" transparent="0"  />
+	
+	<!-- Controls - General faders -->
+
+	<!-- Snare roll dynamics -->
+<Slider param="1"   x="65"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+
+	<!-- Hi-hat pedal -->
+< Slider param="4"   x="141"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+
+	<!-- Controls - Mic faders -->
+
+	<!-- Room mics -->
+<Slider param="109"   x="460"  y="86"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />	
+
+	<!-- Controls - Middle row -->
+
+
+	<!-- Room width -->
+	<Slider param="110"   x="448	"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="pan_knob.png" image_bg="pan_fader_bg.png"  />
+
+	<!-- Controls - Bottom row -->
+	<!-- Kick dampen -->
+	<Knob param="71" x="216" y="279" image="Dial.png" frames="90"  />
+	<!-- Snare button -->
+	<OnOffButton param="21"  x="274" y="278" w="35" h="35" image="onoff.png" />
+	<!-- Epic -->
+	<Knob param="113" x="450" y="279" image="Dial.png" frames="90"  />
+
+
+	<!-- Controls - Tune-->
+	<!-- Master -->
+	<Knob param="90" x="635" y="116" image="Dial.png" frames="90"  />
+	<!-- Snare -->
+	<Knob param="76" x="590" y="166" image="Dial.png" frames="90"  />
+	<!-- Kick -->
+	<Knob param="72" x="590" y="243" image="Dial.png" frames="90"  />
+	<!-- High tom -->
+	<Knob param="86" x="682" y="166" image="Dial.png" frames="90"  />
+	<!-- Low tom -->
+	<Knob param="81" x="682" y="243" image="Dial.png" frames="90"  />
+
+</GUI>                                                                                                                                       
