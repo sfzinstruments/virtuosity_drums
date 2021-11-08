@@ -12,7 +12,7 @@
 <Slider param="1"   x="65"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
 
 	<!-- Hi-hat pedal -->
-< Slider param="4"   x="141"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
+<Slider param="4"   x="141"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
 
 	<!-- Controls - Mic faders -->
 	<!-- Kick mic -->
