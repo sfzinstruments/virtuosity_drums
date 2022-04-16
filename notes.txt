@@ -1,3 +1,6 @@
+Beta 0.923
+Fixed problem with hi-hat slider visibility in hi-hat GUI for pedal (CC 4) use
+
 Beta 0.922
 Off-mode set to normal under every global, so mute times should work as intended now
 Whistle self-muting fixed so it works now
