@@ -51,7 +51,7 @@ amp_velcurve_85=1
 
 <region>
 sample=../Samples/mid/crash/mid_crash_sizzle_vl2_rr4.flac
-lovel=44
+lovel=43
 hivel=85
 seq_length=4
 seq_position=4
