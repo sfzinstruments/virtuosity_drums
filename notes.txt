@@ -1,5 +1,6 @@
 Beta 0.924
 Applied user-provided fix with ride and flat ride where the fourth round robin would not play if velocity was exactly 44.
+Applied the same fix to the crash cymbal which turned out to need it also.
 
 Beta 0.923
 Fixed problem with hi-hat slider visibility in hi-hat GUI for pedal (CC 4) use
