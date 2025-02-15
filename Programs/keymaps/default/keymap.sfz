@@ -24,7 +24,7 @@
 
 #define $HH_CLOSED_KEY 42
 #define $HH_PEDAL_KEY 44
-#define $HH_OPEN_KEY 42
+#define $HH_OPEN_KEY 46
 //Also see more hi-hat settings at the bottom of the file
 
 //General MIDI percussion keys
@@ -72,26 +72,26 @@
 #define $SNARE_FLAM_KEY 95
 #define $SNARE_ROLL_KEY 96
 
-//For e-drum use, set the half and 34 keys to 42 also, and use the CC ranges below
-#define $HH_HALF_KEY 42 //Default was octave above the GM hat keys, normally cowbell etc.
+//For e-drum use, set the half and 34 keys to 46 also, and use the CC ranges below
+#define $HH_HALF_KEY 90 //Default octave above the GM hat keys, normally cowbell etc.
 #define $HH_SPLASH_KEY 92
-#define $HH_34_KEY 42
+#define $HH_34_KEY 94
 
 //For e-drum use, set the ranges for the hi-hat pedal here
 //If closed is on its own key, usually 42, this would be 0 to 127
 //And the three below would be split across the 0 to 127 range
-//If closed is also on MIDI note 42, split the 0 to 127 range in four
-#define $HH_CLOSED_LOCC 96
+//If closed is also on MIDI note 46, split the 0 to 127 range in four
+#define $HH_CLOSED_LOCC 0
 #define $HH_CLOSED_HICC 127
 
-#define $HH_HALF_LOCC 64
-#define $HH_HALF_HICC 95
+#define $HH_HALF_LOCC 0
+#define $HH_HALF_HICC 127
 
-#define $HH_34_LOCC 32
-#define $HH_34_HICC 63
+#define $HH_34_LOCC 0
+#define $HH_34_HICC 127
 
 #define $HH_OPEN_LOCC 0
-#define $HH_OPEN_HICC 31
+#define $HH_OPEN_HICC 127
 
 #define $HH_MUTE_TIME 0.7
 
