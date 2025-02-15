@@ -60,6 +60,8 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=61
 off_by=60
+ampeg_attack=0.001
+offset=$HH_PPREROLL
 #include "mappings/snaremic/hh_pedal_map.sfz"
 
 <group>

@@ -191,6 +191,8 @@ note_polyphony=MAX
 
 <group>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 group=42
 off_by=41
 #include "mappings/kickmic/hh_closed_map.sfz"
@@ -200,6 +202,8 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=41
 off_by=40
+ampeg_attack=0.001
+offset=$HH_PPREROLL
 #include "mappings/kickmic/hh_pedal_map.sfz"
 
 <group>

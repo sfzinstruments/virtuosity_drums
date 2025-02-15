@@ -178,6 +178,8 @@ note_polyphony=MAX
 
 <group>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 group=162
 off_by=161
 #include "mappings/room/hh_closed_map.sfz"
@@ -187,8 +189,8 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=161
 off_by=160
-offset=1200 //To prevent the preroll on hi-hat pedal stuff from causing flams... won't work if master tuning know is moved, though
-ampeg_attack=0.005
+offset=$HH_EPPREROLL
+ampeg_attack=0.002
 #include "mappings/room/hh_pedal_map.sfz"
 
 <group>
@@ -212,7 +214,7 @@ key=$HH_SPLASH_KEY
 amp_veltrack=50
 group=166
 off_by=166
-offset=1200 //To prevent the preroll on hi-hat pedal stuff from causing flams... won't work if master tuning know is moved, though
+offset=$HH_EPPREROLL //To prevent the preroll on hi-hat pedal stuff from causing flams... won't work if master tuning know is moved, though
 ampeg_attack=0.005
 #include "mappings/room/hh_splash_map.sfz"
 

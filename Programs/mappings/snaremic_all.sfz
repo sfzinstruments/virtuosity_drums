@@ -181,6 +181,8 @@ note_polyphony=MAX
 
 <group>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 group=62
 off_by=61
 #include "mappings/snaremic/hh_closed_map.sfz"
@@ -190,6 +192,8 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=61
 off_by=60
+ampeg_attack=0.001
+offset=$HH_PPREROLL
 #include "mappings/snaremic/hh_pedal_map.sfz"
 
 <group>

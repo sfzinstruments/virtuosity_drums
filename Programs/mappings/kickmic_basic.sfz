@@ -59,6 +59,8 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=41
 off_by=40
+ampeg_attack=0.001
+offset=$HH_PPREROLL
 #include "mappings/kickmic/hh_pedal_map.sfz"
 
 <group>
