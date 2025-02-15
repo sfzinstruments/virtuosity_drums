@@ -57,4 +57,12 @@
 #define $PERC_JINGLEBELL_KEY 83
 #define $PERC_BELLTREE_KEY 84
 
-#define $HH_MUTE_TIME 0.3
+#define $HH_MUTE_TIME 0.7
+
+//Hi-hat pedal offset
+//The higher this is, the more responsive the hi-hat pedal sound will feel
+//but there will be less realistic pedal noise before the cymbals clash
+//
+//Set this to 0 to restore the behavior of the old versions
+//2200 would probably be the maximum that's possible
+#define $HH_PPREROLL 1000 //Was effectively 0 up to version 0.925
