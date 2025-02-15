@@ -20,6 +20,8 @@ locc4=$HH_HALF_LOCC
 hicc4=$HH_HALF_HICC
 <region>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 <region>
 key=$HH_PEDAL_KEY
 
@@ -45,6 +47,8 @@ locc4=$HH_HALF_LOCC
 hicc4=$HH_HALF_HICC
 <region>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 <region>
 key=$HH_PEDAL_KEY
 
@@ -63,6 +67,8 @@ locc4=$HH_HALF_LOCC
 hicc4=$HH_HALF_HICC
 <region>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 <region>
 key=$HH_PEDAL_KEY
 
@@ -77,6 +83,8 @@ group=102
 off_by=101
 <region>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 <region>
 key=$HH_PEDAL_KEY
 
