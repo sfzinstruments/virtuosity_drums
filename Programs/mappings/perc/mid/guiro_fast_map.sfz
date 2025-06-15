@@ -1,39 +1,39 @@
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr1_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr1_Mid.wav
 seq_length=8
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr2_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr2_Mid.wav
 seq_length=8
 seq_position=2
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr3_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr3_Mid.wav
 seq_length=8
 seq_position=3
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr4_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr4_Mid.wav
 seq_length=8
 seq_position=4
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr5_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr5_Mid.wav
 seq_length=8
 seq_position=5
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr6_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr6_Mid.wav
 seq_length=8
 seq_position=6
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr7_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr7_Mid.wav
 seq_length=8
 seq_position=7
 
 <region>
-sample=../Samples/perc/mid/guiro/Guiro_Fast_rr8_mid.wav
+sample=../Samples/perc/mid/guiro/Guiro_Fast_rr8_Mid.wav
 seq_length=8
 seq_position=8
