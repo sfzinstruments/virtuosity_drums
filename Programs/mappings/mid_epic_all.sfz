@@ -173,11 +173,13 @@ tune_curvecc76=1
 ampeg_release=$HH_MUTE_TIME
 amp_veltrack=100
 amp_velcurve_1=0.4
-note_polyphony=MAX
+//note_polyphony=MAX
 
 
 <group>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 group=182
 off_by=181
 #include "mappings/mid/hh_closed_map.sfz"
@@ -187,8 +189,8 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=181
 off_by=180
-offset=1200 //To prevent the preroll on hi-hat pedal stuff from causing flams... won't work if master tuning know is moved, though
-ampeg_attack=0.005
+offset=$HH_EPPREROLL
+ampeg_attack=0.002
 #include "mappings/mid/hh_pedal_map.sfz"
 
 <group>
@@ -212,7 +214,7 @@ key=$HH_SPLASH_KEY
 amp_veltrack=50
 group=186
 off_by=186
-offset=1200 //To prevent the preroll on hi-hat pedal stuff from causing flams... won't work if master tuning know is moved, though
+offset=$HH_EPPREROLL //To prevent the preroll on hi-hat pedal stuff from causing flams... won't work if master tuning know is moved, though
 ampeg_attack=0.005
 #include "mappings/mid/hh_splash_map.sfz"
 
@@ -225,7 +227,7 @@ off_by=183
 #include "mappings/mid/hh_34_map.sfz"
 
 <master>
-note_polyphony=MAX
+//note_polyphony=MAX
 #include "mappings/mid/hh_silences_epic_map.sfz"
 
 <master>

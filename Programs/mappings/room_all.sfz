@@ -173,10 +173,12 @@ tune_curvecc76=1
 ampeg_release=$HH_MUTE_TIME
 amp_veltrack=100
 amp_velcurve_1=0.4
-note_polyphony=MAX
+//note_polyphony=MAX
 
 <group>
 key=$HH_CLOSED_KEY
+locc4=$HH_CLOSED_LOCC
+hicc4=$HH_CLOSED_HICC
 group=82
 off_by=81
 #include "mappings/room/hh_closed_map.sfz"
@@ -186,6 +188,8 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=81
 off_by=80
+ampeg_attack=0.001
+offset=$HH_PPREROLL
 #include "mappings/room/hh_pedal_map.sfz"
 
 <group>
@@ -220,7 +224,7 @@ off_by=83
 #include "mappings/room/hh_34_map.sfz"
 
 <master>
-note_polyphony=MAX
+//note_polyphony=MAX
 #include "mappings/room/hh_silences_map.sfz"
 
 <master>
