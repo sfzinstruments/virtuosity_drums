@@ -42,11 +42,11 @@
 		<OptionItem name="ALL"	    value="1" />		
 	</OptionMenu>
 	<!-- OH width -->
-	<Slider param="106"   x="330"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="pan_knob.png" image_bg="pan_fader_bg.png"  />
+	<Slider param="106"   x="330"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="Pan_knob.png" image_bg="pan_fader_bg.png"  />
 	<!-- Mid width -->
-	<Slider param="108"   x="389"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="pan_knob.png" image_bg="pan_fader_bg.png"  />
+	<Slider param="108"   x="389"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="Pan_knob.png" image_bg="pan_fader_bg.png"  />
 	<!-- Room width -->
-	<Slider param="110"   x="448	"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="pan_knob.png" image_bg="pan_fader_bg.png"  />
+	<Slider param="110"   x="448	"  y="237"  w="75" h="30" orientation="horizontal"    image_handle="Pan_knob.png" image_bg="pan_fader_bg.png"  />
 
 	<!-- Controls - Bottom row -->
 	<!-- Kick dampen -->
