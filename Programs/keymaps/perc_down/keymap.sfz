@@ -77,6 +77,12 @@
 #define $HH_34_KEY 58
 
 //For e-drum use, set the ranges for the hi-hat pedal here
+//If closed is on its own key, usually 42, and the rest 46, this would be 0 to 127
+//And the three below would be split across the 0 to 127 range
+//If everything from closed to open on MIDI note 42, split the 0 to 127 range in four
+#define $HH_CLOSED_LOCC 0
+#define $HH_CLOSED_HICC 127
+
 #define $HH_HALF_LOCC 0
 #define $HH_HALF_HICC 127
 
@@ -87,3 +93,14 @@
 #define $HH_OPEN_HICC 127
 
 #define $HH_MUTE_TIME 0.7
+
+//Hi-hat pedal offsets
+//The higher this is, the more responsive the hi-hat pedal sound will feel
+//but there will be less realistic pedal noise before the cymbals clash
+//
+//Set this to 0 and 1200 to restore the behavior of the old versions
+//2000 and 2200 would probably be the maximum that's possible
+//The second value is for the epic mics
+//It should be half of 2400 minus the first value
+#define $HH_PPREROLL 1000 //Was effectively 0 up to version 0.925
+#define $HH_EPPREROLL 1700 //Was 1200 up to version 0.925
