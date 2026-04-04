@@ -173,7 +173,7 @@ tune_curvecc76=1
 ampeg_release=$HH_MUTE_TIME
 amp_veltrack=100
 amp_velcurve_1=0.4
-//note_polyphony=MAX
+note_polyphony=0
 
 
 <group>
@@ -190,7 +190,7 @@ amp_veltrack=50
 group=121
 off_by=120
 //Preroll
-ampeg_attack=0.001
+//ampeg_attack=0.001
 offset=$HH_PPREROLL
 #include "mappings/lofi/hh_pedal_map.sfz"
 
@@ -226,7 +226,7 @@ off_by=123
 #include "mappings/lofi/hh_34_map.sfz"
 
 <master>
-//note_polyphony=MAX
+note_polyphony=0
 #include "mappings/lofi/hh_silences_map.sfz"
 
 <master>

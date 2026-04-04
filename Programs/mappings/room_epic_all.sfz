@@ -173,7 +173,7 @@ tune_curvecc76=1
 ampeg_release=$HH_MUTE_TIME
 amp_veltrack=100
 amp_velcurve_1=0.4
-//note_polyphony=MAX
+note_polyphony=0
 
 
 <group>
@@ -227,7 +227,7 @@ off_by=163
 #include "mappings/room/hh_34_map.sfz"
 
 <master>
-//note_polyphony=MAX
+note_polyphony=0
 #include "mappings/room/hh_silences_epic_map.sfz"
 
 <master>
