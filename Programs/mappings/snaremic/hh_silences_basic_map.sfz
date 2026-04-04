@@ -3,8 +3,8 @@
 //Everything except open
 //Just like the splash mute group, except the splash key is in this too
 sample=*silence
-loop_mode=loop_continuous off_mode=fast
-ampeg_attack=0 ampeg_decay=0 ampeg_sustain=0 ampeg_release=0
+off_mode=fast
+end=-1
 group=64
 off_by=63
 <region>
@@ -17,8 +17,8 @@ key=$HH_PEDAL_KEY
 //The range which mutes closed hi-hats
 //Just splash and pedal
 sample=*silence
-loop_mode=loop_continuous off_mode=fast
-ampeg_attack=0 ampeg_decay=0 ampeg_sustain=0 ampeg_release=0
+off_mode=fast
+end=-1
 group=61
 off_by=60
 <region>

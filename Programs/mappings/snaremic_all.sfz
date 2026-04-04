@@ -177,7 +177,7 @@ amp_veltrack=100
 amp_velcurve_1=0.4
 //Bleed control
 locc104=85
-//note_polyphony=MAX
+note_polyphony=0
 
 <group>
 key=$HH_CLOSED_KEY
@@ -192,7 +192,7 @@ key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=61
 off_by=60
-ampeg_attack=0.001
+//ampeg_attack=0.001
 offset=$HH_PPREROLL
 #include "mappings/snaremic/hh_pedal_map.sfz"
 
@@ -228,7 +228,7 @@ off_by=63
 #include "mappings/snaremic/hh_34_map.sfz"
 
 <master>
-//note_polyphony=MAX
+note_polyphony=0
 #include "mappings/snaremic/hh_silences_map.sfz"
 
 <master>

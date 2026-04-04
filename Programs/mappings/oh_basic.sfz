@@ -43,7 +43,7 @@ key=$SNARE_RIMSHOT_KEY
 ampeg_release=$HH_MUTE_TIME
 amp_veltrack=100
 amp_velcurve_1=0.4
-//note_polyphony=MAX
+note_polyphony=0
 
 
 
@@ -57,7 +57,7 @@ off_by=21
 key=$HH_PEDAL_KEY
 amp_veltrack=50
 group=21
-ampeg_attack=0.001
+//ampeg_attack=0.001
 offset=$HH_PPREROLL
 #include "mappings/oh/hh_pedal_map.sfz"
 
@@ -70,7 +70,7 @@ off_by=24
 
 
 <master>
-//note_polyphony=MAX
+note_polyphony=0
 #include "mappings/oh/hh_silences_basic_map.sfz"
 
 <master>
