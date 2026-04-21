@@ -12,11 +12,8 @@
 <Slider param="1"   x="65"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
 
 	<!-- Hi-hat pedal -->
-	<OptionMenu    param="4"  x="127"  y="235"  w="40" h="18"  font_size="Small" alignment="center" color_text="#D3CFC9FF" transparent="0"  >	
-		<OptionItem name="Open"		    value="0.044" />
-		<OptionItem name="3/4"		    value="0.272" />
-		<OptionItem name="Half"	    value="0.508" />	
-	</OptionMenu>
+	<!-- Fader version -->
+<Slider param="4"   x="141"  y="128"  w="19" h="101" orientation="vertical"    image_handle="mic_fader_handle.png" image_bg="mic_fader_bg_v2.png"  />
 
 	<!-- Controls - Mic faders -->
 	<!-- Kick mic -->
